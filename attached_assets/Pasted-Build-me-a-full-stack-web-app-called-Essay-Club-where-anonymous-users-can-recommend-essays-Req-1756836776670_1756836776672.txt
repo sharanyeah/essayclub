@@ -1,0 +1,37 @@
+Build me a full-stack web app called “Essay Club” where anonymous users can recommend essays.
+
+Requirements:
+1. **Tech stack:** React + TailwindCSS + Framer Motion on the frontend, Express.js + Lowdb (JSON file database) on the backend. Use Vite for the client.
+2. **Database:** Store data in a single `db.json` file with the schema:
+   {
+     id: string,
+     title: string,
+     author: string,
+     why: string,
+     sourceType: "link" | "text" | "both",
+     source: string,
+     pseudonym: string,
+     createdAt: number
+   }
+3. **Features:**
+   - A form with required fields: essay title, author, “why you recommend it”, pseudonym (optional), and source (link, text, or both).
+   - After submitting, show a 10-second undo bar with “Edit” and “Delete” options before finalizing.
+   - If `sourceType` is link → show “Open now” button; if text → show the essay in a modal popup; if both → show both.
+4. **UI design:**
+   - Pinterest-style masonry grid layout with postcard-like cards (rounded corners, soft shadows, paper textures).
+   - Smooth scroll animations (fade/slide in) and hover animations (lift, rotate slightly).
+   - Clean modern typography: serif for titles, sans-serif for body. Colors: soft cream background, teal + papaya accents.
+   - Friendly form styling with micro-animations and validation.
+5. **Routing:**
+   - Backend: `/api/posts` GET (paginated), POST, PUT, DELETE.
+   - Frontend: fetch posts, render grid, show form, handle undo logic, modal for text essays.
+6. **Dev experience:** Use `concurrently` so `npm run dev` runs both client and server.
+
+Deliverables:
+- Root `server.js` with Express + Lowdb API.
+- `db.json` file auto-created if missing.
+- `/client` React app with components: `NewPostForm.jsx`, `PostCard.jsx`, `UndoToast.jsx`, `ModalViewer.jsx`, `MasonryGrid.jsx`.
+- Tailwind + framer-motion setup ready.
+- Full code should run on Replit with: `npm install` (root + client) then `npm run dev`.
+
+Make it beautiful, functional, and clean so I can deploy directly from Replit.

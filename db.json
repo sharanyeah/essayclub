@@ -1,0 +1,105 @@
+{
+  "essays": [
+    {
+      "id": "1",
+      "title": "On Friendship",
+      "author": "Michel de Montaigne",
+      "why": "Montaigne's warm meditation on friendship explores loyalty, intimacy, and the rare bond of a perfect companion.",
+      "sourceType": "link",
+      "source": "https://www.gutenberg.org/ebooks/3600",
+      "pseudonym": "FriendshipMuse",
+      "createdAt": 1756845000000
+    },
+    {
+      "id": "2",
+      "title": "Walking",
+      "author": "Henry David Thoreau",
+      "why": "A celebration of nature and the freedom of the open air, Thoreau’s essay invites readers to rediscover the wild around them.",
+      "sourceType": "link",
+      "source": "https://www.gutenberg.org/ebooks/1022",
+      "pseudonym": "NatureWanderer",
+      "createdAt": 1756845100000
+    },
+    {
+      "id": "3",
+      "title": "The Philosophy of Style",
+      "author": "Herbert Spencer",
+      "why": "Spencer examines clarity and force in writing, offering timeless advice for anyone who wants their words to resonate.",
+      "sourceType": "link",
+      "source": "https://www.gutenberg.org/ebooks/44709",
+      "pseudonym": "ClarityCrafter",
+      "createdAt": 1756845200000
+    },
+    {
+      "id": "4",
+      "title": "On the Pleasure of Hating",
+      "author": "William Hazlitt",
+      "why": "Hazlitt reflects on human contradictions and the strange satisfaction we find in dislike, with sharp wit and honesty.",
+      "sourceType": "link",
+      "source": "https://www.gutenberg.org/ebooks/3020",
+      "pseudonym": "SharpObserver",
+      "createdAt": 1756845300000
+    },
+    {
+      "id": "5",
+      "title": "Dream-Children: A Reverie",
+      "author": "Charles Lamb",
+      "why": "A tender, bittersweet essay on family, memory, and the power of imagination, blending gentle humor with quiet sorrow.",
+      "sourceType": "link",
+      "source": "https://www.gutenberg.org/ebooks/11408",
+      "pseudonym": "GentleDreamer",
+      "createdAt": 1756845400000
+    },
+    {
+      "id": "6",
+      "title": "The Decay of Lying",
+      "author": "Oscar Wilde",
+      "why": "Wilde playfully defends artifice and imagination over dull reality, making a spirited case for the beauty of fiction.",
+      "sourceType": "link",
+      "source": "https://www.gutenberg.org/ebooks/774",
+      "pseudonym": "AestheticRebel",
+      "createdAt": 1756845500000
+    },
+    {
+      "id": "7",
+      "title": "On Being Idle",
+      "author": "Jerome K. Jerome",
+      "why": "A humorous defense of doing nothing, celebrating leisure and the art of taking life lightly.",
+      "sourceType": "link",
+      "source": "https://www.gutenberg.org/ebooks/849",
+      "pseudonym": "LazyPhilosopher",
+      "createdAt": 1756845600000
+    },
+    {
+      "id": "8",
+      "title": "The Book of Tea",
+      "author": "Kakuzo Okakura",
+      "why": "A graceful meditation on tea culture, aesthetics, and Eastern philosophy, blending art and spirituality.",
+      "sourceType": "link",
+      "source": "https://www.gutenberg.org/ebooks/769",
+      "pseudonym": "ZenAesthete",
+      "createdAt": 1756845700000
+    },
+    {
+      "id": "9",
+      "title": "An Apology for Idlers",
+      "author": "Robert Louis Stevenson",
+      "why": "Stevenson argues for the value of leisure and unstructured time as essential to a full and observant life.",
+      "sourceType": "link",
+      "source": "https://www.gutenberg.org/ebooks/492",
+      "pseudonym": "LifeObserver",
+      "createdAt": 1756845800000
+    },
+    {
+      "id": "10",
+      "title": "On the Shortness of Life",
+      "author": "Seneca",
+      "why": "A Stoic classic reminding us that life is long enough—if we spend it wisely and with purpose.",
+      "sourceType": "link",
+      "source": "https://www.gutenberg.org/ebooks/10141",
+      "pseudonym": "StoicSeeker",
+      "createdAt": 1756845900000
+    }
+  ],
+  "users": []
+}
